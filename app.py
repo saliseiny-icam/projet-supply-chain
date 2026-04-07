@@ -16,7 +16,7 @@ def charger_donnees():
 df = charger_donnees()
 
 # --- BARRE LATÉRALE (SIDEBAR) ---
-st.sidebar.image("https://cdn-icons-png.flaticon.com/512/2764/2764494.png", width=100)
+st.sidebar.image("https://cdn-icons-png.flaticon.com/512/1040/1040225.png", width=100)
 st.sidebar.title("⚙️ Paramètres")
 
 volume_min = int(df['Volume_Commandes'].min())
